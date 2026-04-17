@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Lahcen-aglagalDemo_GIT_UiPath",
+  "Type": "Screen",
+  "Id": "Yer_IsVMjUS-cVNTd8oF9g",
+  "Reference": "Eph87_-gWUCtQv6oI8EpYA/Yer_IsVMjUS-cVNTd8oF9g",
+  "ParentRef": "Eph87_-gWUCtQv6oI8EpYA/BKkZuuM1YU608TXagp9bfQ",
+  "Created": "2026-04-17T00:54:06.3986333Z",
+  "Updated": "2026-04-17T00:54:06.3986333Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

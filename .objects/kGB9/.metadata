@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Lahcen-aglagalDemo_GIT_UiPath",
+  "Type": "App",
+  "Id": "kGB9VWiB30yqLfjBmx_4fg",
+  "Reference": "Eph87_-gWUCtQv6oI8EpYA/kGB9VWiB30yqLfjBmx_4fg",
+  "Created": "2026-04-17T00:54:06.1826635Z",
+  "Updated": "2026-04-17T00:54:06.1826635Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.28.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
