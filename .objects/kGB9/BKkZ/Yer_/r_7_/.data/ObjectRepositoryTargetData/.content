@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UKEUz94poUKEiOg8in_z8w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="github.com/Lahcen-aglagal/Demo_GIT_UiPath/tree/main" DesignTimeRectangle="1150, 485, 107, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Code' parentid='repo-content-pjax-container' tag='BUTTON' type='button' class='prc-Button-ButtonBase-9n-Xk' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="5227916a-9946-4a23-9522-d787bf911bb1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lahcen-aglagal/Demo_GIT_UiPath' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1187, 491, 33, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Code' class='prc-Button-Label-FWkx3' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="76b007d5-89a9-4ce7-bc51-8c9a25b2cb29" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="189d631f9e819a4432e3c03d0d409e4f.jpg" xmlns="">0lLxQDBTKw0WitPH90SEOvQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
