@@ -1,0 +1,4 @@
+﻿Install the Gemini command-line tool:
+			npm install -g @google/gemini-cli
+If you want to run Gemini CLI temporarily without installing it globally.
+			npx @google/gemini-cliIf you want to run Gemini CLI temporarily without installing it globally.
