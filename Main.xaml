@@ -81,46 +81,37 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1120,647.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1114,760" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Lahcen-aglagalDemo_GIT_UiPath" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,563" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0ff71c37-0b4e-42cb-898d-782c35f7e8b6" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Lahcen-aglagalDemo_GIT_UiPath" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,737" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="0ff71c37-0b4e-42cb-898d-782c35f7e8b6" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,369" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,543" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NSelectItem DisplayName="Select Item 'Code'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="GitHub CLI" ScopeIdentifier="0ff71c37-0b4e-42cb-898d-782c35f7e8b6" Version="V5">
-              <uix:NSelectItem.Items>
-                <scg:List x:TypeArguments="x:String" Capacity="6">
-                  <x:String>HTTPS</x:String>
-                  <x:String>SSH</x:String>
-                  <x:String>GitHub CLI</x:String>
-                  <x:String>Open with GitHub Desktop</x:String>
-                  <x:String>Open with Visual Studio</x:String>
-                  <x:String>Download ZIP</x:String>
-                </scg:List>
-              </uix:NSelectItem.Items>
-              <uix:NSelectItem.Target>
-                <uix:TargetAnchorable BrowserURL="github.com/Lahcen-aglagal/Demo_GIT_UiPath/tree/main" ContentHash="UKEUz94poUKEiOg8in_z8w" DesignTimeRectangle="1150, 485, 107, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Code' parentid='repo-content-pjax-container' tag='BUTTON' type='button' class='prc-Button-ButtonBase-9n-Xk' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="5227916a-9946-4a23-9522-d787bf911bb1" InformativeScreenshot="189d631f9e819a4432e3c03d0d409e4f.jpg" Reference="Eph87_-gWUCtQv6oI8EpYA/r_7_NNmKlEmvQV4jDIuzXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lahcen-aglagal/Demo_GIT_UiPath' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Code'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0ff71c37-0b4e-42cb-898d-782c35f7e8b6" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="github.com/Lahcen-aglagal/Demo_GIT_UiPath" ContentHash="y3mLSPv4PUicOJ0szyEjbA" DesignTimeRectangle="1150, 419, 107, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Code' parentid='repo-content-pjax-container' tag='BUTTON' type='button' class='prc-Button-ButtonBase-9n-Xk' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="e1621800-7e35-44f0-b1d7-6ce544bb791c" InformativeScreenshot="0366ef2da188f913401e786c073415aa.jpg" Reference="Eph87_-gWUCtQv6oI8EpYA/bhH8iHTjZ0GW0JUaA7i_PQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Lahcen-aglagal/Demo_GIT_UiPath' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="1187, 491, 33, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Code' class='prc-Button-Label-FWkx3' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="76b007d5-89a9-4ce7-bc51-8c9a25b2cb29" SearchSteps="FuzzySelector" />
+                      <uix:Target DesignTimeRectangle="1187, 425, 33, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Code' class='prc-Button-Label-FWkx3' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Code' /&gt;" Guid="8f651f9f-4d29-4e5b-8fe4-37b24b1bf95e" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
-              </uix:NSelectItem.Target>
-            </uix:NSelectItem>
-            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;process OK&quot;]" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;log message&quot;]" />
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_1" />
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
